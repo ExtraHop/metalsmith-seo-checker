@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+
+<title>{{title}}</title>
+
+<meta name="robots" content="{{seo.robots}}">
+<link rel="canonical" href="{{seo.canonical}}" />
+<meta property="og:url" content="{{seo.canonical}}" />
+<meta property="og:title" content="{{seo.ogp.title}}" />
+
+{{#if seo.ogp.type}}
+<meta property="og:type" content="{{seo.ogp.type}}" />
+{{else}}
+<meta property="og:type" content="website" />
+{{/if}}
+{{#if seo.ogp.image}}
+<meta property="og:image" content="{{seo.ogp.image}}" />
+{{/if}}
