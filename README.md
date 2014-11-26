@@ -20,6 +20,7 @@ With this set of options:
 ```js
 {
     ignoreFiles: ['special.html'],
+    trailingSlash: true, // Append a trailing slash to the canonical url
     lengths: {
         title: 60, // This is the default value
         description: 160 // This is the default value
