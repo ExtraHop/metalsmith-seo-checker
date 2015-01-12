@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-seo-checker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Metalsmith plugin that does some SEO validation on content files.",
   "main": "lib/index.js",
   "repository": "https://github.com/ExtraHop/metalsmith-seo-checker.git",
