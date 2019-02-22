@@ -12,11 +12,13 @@
     "url": "http://www.extrahop.com"
   },
   "contributors": [
-    { "name": "Aaron Boushley" }
+    {
+      "name": "Aaron Boushley"
+    }
   ],
   "license": "MIT",
   "dependencies": {
-    "debug": "^1.0.2",
-    "lodash": "^2.4.1"
+    "debug": "^4.1.1",
+    "lodash": "^4.17.11"
   }
 }
